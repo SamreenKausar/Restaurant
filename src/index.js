@@ -1,5 +1,5 @@
 import './Assets/css/style.css';
-
+const content  = document.querySelector('#content');
 function component() {
     const element = document.createElement('div');
  
@@ -10,4 +10,4 @@ function component() {
     return element;
   }
  
-  document.body.appendChild(component());
+  content.appendChild(component());
